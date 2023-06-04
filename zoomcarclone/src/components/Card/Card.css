@@ -1,5 +1,192 @@
-.car-list{
-    display: flex;
-    gap: 15px;
-    padding: 5px 0px;
+.card-body {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(230, 225, 225);
+  width: 100%;
+  
+  box-shadow: rgb(252, 253, 253);
 }
+.image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.carName-div{
+  margin-top: 5px;
+}
+.carName {
+  font-size: medium;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 15px;
+}
+.carType-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+.carType-p {
+  font-size: small;
+  font-weight: 400;
+  color: gray;
+  margin-right: 10px;
+}
+.pricelocation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 15px;
+
+}
+.price-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.location-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  padding-right: 15px;
+
+}
+.availabledate {
+  font-size: small;
+  font-weight: 400;
+  color: gray;
+  margin: 0;
+}
+.price {
+  font-size: larger;
+  font-weight: 500;
+  margin: 0;
+}
+.citylocation {
+  
+  font-size: small;
+  font-weight: 400;
+  color: gray;
+  border: 1px solid rgb(230, 225, 225);
+  padding: 5px;
+  background-color: rgb(241, 244, 238);
+  width: 50%;
+  text-align: center;
+  height: fit-content;
+}
+
+/* .car-list {
+  display: flex;
+  gap: 15px;
+  padding: 5px 0px;
+}
+.car-list-home-container{
+  font-style: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  font-family: "IBM Plex Sans";
+  position: relative;
+}
+.car-list-home {
+  font-style: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "IBM Plex Sans";
+  box-sizing: inherit;
+  position: relative;
+  z-index: 2;
+  margin: 0px auto;
+  overflow: scroll;
+  width: 85%;
+  padding: 10px 5px;
+}
+.car-list {
+  font-style: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "IBM Plex Sans";
+  box-sizing: inherit;
+  display: flex;
+  padding: 5px 0px;
+  gap: 2.6%;
+}
+.car-list-card {
+  font-style: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  font-family: "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 16px;
+  border-width: 1px 1px 1px;
+  border-style: none solid solid;
+  border-color: lightgray lightgray lightgray;
+  border-image: initial;
+  border-top: none;
+  background: white;
+  min-width: 27%;
+  
+}
+.car-list-card-image {
+  font-style: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "IBM Plex Sans";
+  cursor: pointer;
+  box-sizing: inherit;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background: linear-gradient(gray, white 25%);
+  width: 100%;
+  height: 160px;
+}
+.car-list-card-description{
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+    position: relative;
+    padding: 10px 16px 16px;
+}
+.car-list-card-description-reviews{
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.car-list-card-description-reviews-icon{
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+}
+.car-list-card-description-reviews-value{
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+}
+.car-list-card-description-reviews-count{
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+} */

@@ -42,7 +42,13 @@ const Footer = () => {
       <div className="keeptouch">
         Let's keep in touch
         <div className="icon-div">
-        <i class="bi bi-twitter"></i>
+        <i className="bi bi-twitter i-style" ></i>
+        <i class="bi bi-instagram i-style"></i>
+        <i class="bi bi-youtube i-style"></i>
+        <i class="bi bi-facebook i-style"></i>
+        <i class="bi bi-linkedin i-style"></i>
+
+
         </div>
       </div>
       <div>

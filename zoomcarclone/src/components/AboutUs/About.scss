@@ -1,0 +1,37 @@
+.para-wrapper {
+    margin-top: 24px;
+
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+        letter-spacing: normal;
+        color: #fff;
+    }
+
+    .detail {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+
+        color: #fff;
+        margin: 4px 0px 16px 0px;
+    }
+
+    .point-title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+        letter-spacing: 24;
+        color: #fff;
+        text-align: initial;
+    }
+
+    .poits {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+        color: #fff;
+        margin: 4px 0px 16px 0px;
+    }
+}

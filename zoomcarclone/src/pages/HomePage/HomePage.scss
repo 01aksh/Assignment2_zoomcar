@@ -1,0 +1,72 @@
+// .title {
+//   font-size: 14px;
+//   font-weight: 600;
+//   line-height: 1.4;
+//   letter-spacing: normal;
+//   color: #fff;
+//   cursor: pointer;
+
+//   padding-bottom: 10px;
+// }
+
+.active {
+  border-bottom: 4px solid #0cea2d;
+}
+.car-div {
+  display: flex;
+  flex-direction: row;
+}
+.cat-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+}
+.category {
+  padding-right: 10px;
+}
+.card-div {
+  margin: 20px;
+  display: grid;
+  // grid-template-columns: (1fr,25%);
+}
+
+.main-container {
+  background-color: #383838;
+  padding: 34px 84px;
+
+  .headings-wrapper {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.4;
+      letter-spacing: normal;
+      color: #fff;
+      cursor: pointer;
+
+      padding-bottom: 10px;
+    }
+
+    .active {
+      border-bottom: 2px solid #c5c1c1;
+    }
+  }
+
+  .data {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #fff;
+  }
+
+  .link {
+    color: white;
+    text-decoration: underline;
+  }
+}

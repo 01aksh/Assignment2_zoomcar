@@ -3,13 +3,15 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="desktop-header">
+      <div className="icon-header">
         <div>
           <img alt="HammIcon" />
         </div>
         <div>
-          <img alt="ZoomIcon" />
+          <p className="zoomicon">ZoomIcon</p>
         </div>
+      </div>
+      <div className="desktop-header">
         <div>
           <button className="hostbutton">Become a Host</button>
         </div>

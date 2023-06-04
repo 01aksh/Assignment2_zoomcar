@@ -1,0 +1,66 @@
+.web-banner-image{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+    width: 100%;
+}
+.web-banner-image-img{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    width: 100%;
+    max-height: 650px;
+}
+.web-banner-image-block-web-banner-image-block-background{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    position: absolute;
+    top: 30px;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    background-size: cover;
+    max-width: 70%;
+}
+.web-banner-image-block-title{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    text-align: center;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #fff;
+}
+.web-banner-image-block-sub-title{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #fff;
+}

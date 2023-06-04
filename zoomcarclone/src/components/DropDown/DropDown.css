@@ -1,0 +1,57 @@
+
+.select-location {
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }
+  .select-location-select {
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+    border-radius: 5.1px;
+    border: 1px solid #e0e0e0;
+  }
+  .select-location-select-elem {
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+    display: grid;
+    align-items: center;
+    width: 510px;
+    height: 68px;
+    grid-template-columns: 90% 10%;
+  }
+  .select-location-select-elem-text {
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #1f1f1f;
+    margin-left: 24px;
+  }
+  .select-location-select-elem-icon {
+    font-style: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "IBM Plex Sans";
+    cursor: pointer;
+    box-sizing: inherit;
+  }

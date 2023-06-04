@@ -1,0 +1,15 @@
+.category-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.tab-div {
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  font-size: medium;
+  font-weight: 400;
+}

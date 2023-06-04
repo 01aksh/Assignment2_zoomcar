@@ -162,7 +162,7 @@ export const aboutUsData = [
 export const categories = [
   "All",
   "Luxuary",
-  "sunroof",
+  "Sunroof",
   "Roadtrip",
   "Autoamtic",
   "Diesel",
@@ -190,7 +190,7 @@ export const carDetails = [
     city: "Chennai",
   },
   {
-    tag: "sunroof",
+    tag: "Sunroof",
 
     carName: "i20",
     transmission: "Manual",

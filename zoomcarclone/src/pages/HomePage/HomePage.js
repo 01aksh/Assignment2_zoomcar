@@ -47,9 +47,53 @@ const HomePage = () => {
             })}
           </div>
         ) : activeCategory === 1 ? (
-          <p>Lux</p>
+          <div className="car-div">
+            {carDetails
+              .filter((car) => car.tag === "Luxuary")
+              .map((filtered) => {
+                return (
+                  <div className="card-div">
+                    <Card car={filtered} />
+                  </div>
+                );
+              })}
+          </div>
         ) : activeCategory === 2 ? (
-          <p>Sunroof</p>
+          <div className="car-div">
+            {carDetails
+              .filter((car) => car.tag === "Sunroof")
+              .map((filtered) => {
+                return (
+                  <div className="card-div">
+                    <Card car={filtered} />
+                  </div>
+                );
+              })}
+          </div>
+        ) : activeCategory === 4 ? (
+          <div className="car-div">
+            {carDetails
+              .filter((car) => car.tag === "Automatic")
+              .map((filtered) => {
+                return (
+                  <div className="card-div">
+                    <Card car={filtered} />
+                  </div>
+                );
+              })}
+          </div>
+        ) : activeCategory === 5 ? (
+          <div className="car-div">
+            {carDetails
+              .filter((car) => car.tag === "Diesel")
+              .map((filtered) => {
+                return (
+                  <div className="card-div">
+                    <Card car={filtered} />
+                  </div>
+                );
+              })}
+          </div>
         ) : (
           ""
         )}
